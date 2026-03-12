@@ -17,7 +17,7 @@ const slides = [
     subtitle: 'Through psychosocial support, medical care, and community engagement, we ensure our elderly live with purpose and belonging in Maralal and beyond.',
   },
   {
-    bg: '/images/cover2.png',
+    bg: '/images/cover.png',
   
     title: 'Your Donation',
     titleAccent: 'Changes Everything',
