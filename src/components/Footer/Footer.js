@@ -95,7 +95,7 @@ export default function Footer() {
         <div className="container">
           <div className="footer-bottom-inner">
             <span className="footer-bottom-copy">
-              © {year} Samburu Elderly Support Initiative. All rights reserved.
+              © {year} Samburu Elderly Support Initiative. All rights reserved. Developed by Richard Ngasike
             </span>
             <div className="footer-bottom-links">
               <Link href="/privacy" className="footer-bottom-link">Privacy Policy</Link>
