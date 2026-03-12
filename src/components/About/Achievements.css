@@ -1,0 +1,172 @@
+/* ============================================
+   ACHIEVEMENTS SECTION
+   ============================================ */
+
+.achievements {
+  padding: 110px 0;
+  background: #fff;
+}
+
+.achievements-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.achievements-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.achievement-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 20px 22px;
+  background: var(--warm-white);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  transition: all 0.3s ease;
+}
+
+.achievement-item:hover {
+  border-color: var(--primary-light);
+  background: var(--cream);
+  transform: translateX(6px);
+  box-shadow: var(--shadow-sm);
+}
+
+.achievement-icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.achievement-text {
+  font-size: 0.95rem;
+  color: var(--text-medium);
+  line-height: 1.6;
+}
+
+.achievement-text strong {
+  color: var(--text-dark);
+  display: block;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+/* Partners */
+.achievements-partners {
+  margin-top: 40px;
+  padding: 28px;
+  background: var(--cream);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+}
+
+.achievements-partners h4 {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 16px;
+}
+
+.partner-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.partner-tag {
+  padding: 6px 14px;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 50px;
+  font-size: 0.78rem;
+  color: var(--text-medium);
+  font-weight: 600;
+}
+
+/* Board section */
+.achievements-board {
+  padding: 0;
+}
+
+.board-table-wrap {
+  overflow-x: auto;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border);
+}
+
+.board-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+.board-table thead {
+  background: var(--primary);
+}
+
+.board-table thead th {
+  padding: 16px 20px;
+  text-align: left;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.board-table tbody tr {
+  border-bottom: 1px solid var(--border);
+  transition: background 0.2s ease;
+}
+
+.board-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.board-table tbody tr:hover {
+  background: var(--cream);
+}
+
+.board-table tbody td {
+  padding: 14px 20px;
+  font-size: 0.9rem;
+  color: var(--text-medium);
+}
+
+.board-table tbody td:first-child {
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.board-role-badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 50px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  background: rgba(139, 69, 19, 0.1);
+  color: var(--primary);
+}
+
+.board-role-badge.leader {
+  background: rgba(44, 95, 46, 0.1);
+  color: var(--secondary);
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+
+@media (max-width: 900px) {
+  .achievements-grid {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+}

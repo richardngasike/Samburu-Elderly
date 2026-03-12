@@ -1,0 +1,247 @@
+/* ============================================
+   ABOUT SECTION STYLES
+   ============================================ */
+
+.about {
+  padding: 110px 0;
+  background: var(--warm-white);
+  overflow: hidden;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+/* Left: Image Stack */
+.about-images {
+  position: relative;
+  height: 560px;
+}
+
+.about-img-main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 75%;
+  height: 85%;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+}
+
+.about-img-main img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.about-img-main:hover img {
+  transform: scale(1.04);
+}
+
+.about-img-secondary {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 55%;
+  height: 50%;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  border: 5px solid #fff;
+}
+
+.about-img-secondary img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.about-img-secondary:hover img {
+  transform: scale(1.04);
+}
+
+.about-badge-float {
+  position: absolute;
+  top: 50%;
+  right: -20px;
+  transform: translateY(-50%);
+  background: var(--primary);
+  color: #fff;
+  padding: 20px;
+  border-radius: var(--radius-lg);
+  text-align: center;
+  min-width: 110px;
+  box-shadow: var(--shadow-md);
+  z-index: 3;
+}
+
+.about-badge-float-num {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 800;
+  display: block;
+  line-height: 1;
+}
+
+.about-badge-float-text {
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.85;
+  margin-top: 4px;
+  display: block;
+}
+
+/* Right: Content */
+.about-content {
+  padding-right: 20px;
+}
+
+.about-mission-vision {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 32px 0;
+}
+
+.about-mv-card {
+  background: var(--cream);
+  padding: 20px;
+  border-radius: var(--radius);
+  border-left: 4px solid var(--primary);
+}
+
+.about-mv-card:nth-child(2) {
+  border-left-color: var(--secondary);
+}
+
+.about-mv-title {
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--primary);
+  margin-bottom: 8px;
+}
+
+.about-mv-card:nth-child(2) .about-mv-title {
+  color: var(--secondary);
+}
+
+.about-mv-text {
+  font-size: 0.9rem;
+  color: var(--text-medium);
+  line-height: 1.6;
+  font-family: var(--font-italic);
+  font-style: italic;
+}
+
+.about-description {
+  font-size: 1.05rem;
+  color: var(--text-medium);
+  line-height: 1.85;
+  margin-bottom: 24px;
+  font-family: var(--font-italic);
+}
+
+.about-details {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 36px;
+}
+
+.about-detail-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 14px 18px;
+  background: #fff;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  transition: all 0.3s ease;
+}
+
+.about-detail-item:hover {
+  border-color: var(--primary-light);
+  box-shadow: var(--shadow-sm);
+  transform: translateX(4px);
+}
+
+.about-detail-icon {
+  font-size: 1.3rem;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.about-detail-text strong {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 2px;
+}
+
+.about-detail-text span {
+  font-size: 0.85rem;
+  color: var(--text-light);
+}
+
+.about-actions {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+
+@media (max-width: 1024px) {
+  .about-grid {
+    gap: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .about-images {
+    height: 380px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .about-badge-float {
+    right: 10px;
+  }
+
+  .about-content {
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .about-actions {
+    justify-content: center;
+  }
+
+  .about-detail-item {
+    text-align: left;
+  }
+}
+
+@media (max-width: 500px) {
+  .about-mission-vision {
+    grid-template-columns: 1fr;
+  }
+}
