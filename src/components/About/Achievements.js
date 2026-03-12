@@ -1,12 +1,21 @@
+import { 
+  FaMicrophone,
+  FaUtensils,
+  FaBirthdayCake,
+  FaMitten,
+  FaGlobeAfrica,
+  FaTint,
+  FaChartBar
+} from 'react-icons/fa';
 
 const achievements = [
-  { icon: '🎤', title: '5+ Open Forums', desc: 'Community awareness campaigns reaching hundreds of families in Samburu County.' },
-  { icon: '🍲', title: 'Food Distribution', desc: 'Regular foodstuff deliveries to all three target communities across Samburu.' },
-  { icon: '🎂', title: 'Birthday Celebrations', desc: 'Organized special birthday events for elderly persons, restoring joy and dignity.' },
-  { icon: '🧣', title: '20 Blankets Distributed', desc: 'Provided warm blankets to 20 vulnerable elderly members during cold seasons.' },
-  { icon: '🌍', title: 'World Elder Abuse Day', desc: 'Celebrated World Elder Abuse Awareness Day with the elderly community.' },
-  { icon: '💧', title: '6 Water Boosters', desc: 'Delivered water to all three target areas using water booster distributions.' },
-  { icon: '📊', title: 'Weekly Monitoring', desc: 'Consistent weekly monitoring and follow-up of elderly persons in the program.' },
+  { icon: <FaMicrophone />, title: '5+ Open Forums', desc: 'Community awareness campaigns reaching hundreds of families in Samburu County.' },
+  { icon: <FaUtensils />, title: 'Food Distribution', desc: 'Regular foodstuff deliveries to all three target communities across Samburu.' },
+  { icon: <FaBirthdayCake />, title: 'Birthday Celebrations', desc: 'Organized special birthday events for elderly persons, restoring joy and dignity.' },
+  { icon: <FaMitten />, title: '20 Blankets Distributed', desc: 'Provided warm blankets to 20 vulnerable elderly members during cold seasons.' },
+  { icon: <FaGlobeAfrica />, title: 'World Elder Abuse Day', desc: 'Celebrated World Elder Abuse Awareness Day with the elderly community.' },
+  { icon: <FaTint />, title: '6 Water Boosters', desc: 'Delivered water to all three target areas using water booster distributions.' },
+  { icon: <FaChartBar />, title: 'Weekly Monitoring', desc: 'Consistent weekly monitoring and follow-up of elderly persons in the program.' },
 ];
 
 const partners = [
