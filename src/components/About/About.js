@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { FaMapMarkerAlt, FaClipboardList, FaHandshake, FaHome } from 'react-icons/fa';
 
 export default function About() {
   return (
@@ -11,7 +12,7 @@ export default function About() {
               <img src="/images/about1.png" alt="Elderly woman in Samburu community" />
             </div>
             <div className="about-img-secondary">
-              <img src="/images/about2.jpg" alt="Community volunteers serving elders" />
+              <img src="/images/about2.png" alt="Community volunteers serving elders" />
             </div>
             <div className="about-badge-float">
               <span className="about-badge-float-num">2023</span>
@@ -45,28 +46,39 @@ export default function About() {
 
             <div className="about-details">
               <div className="about-detail-item">
-                <span className="about-detail-icon">📍</span>
+                <span className="about-detail-icon">
+                  <FaMapMarkerAlt />
+                </span>
                 <div className="about-detail-text">
                   <strong>Location</strong>
                   <span>Maralal Municipality, Kirisia Division, Samburu Central Sub County</span>
                 </div>
               </div>
+
               <div className="about-detail-item">
-                <span className="about-detail-icon">📋</span>
+                <span className="about-detail-icon">
+                  <FaClipboardList />
+                </span>
                 <div className="about-detail-text">
                   <strong>Registration</strong>
                   <span>CBO Certificate No. SBU/C/CBO/00953/2023 — Ministry of Culture, Gender & Sports</span>
                 </div>
               </div>
+
               <div className="about-detail-item">
-                <span className="about-detail-icon">🤝</span>
+                <span className="about-detail-icon">
+                  <FaHandshake />
+                </span>
                 <div className="about-detail-text">
                   <strong>Core Value</strong>
                   <span>Working in partnership to build trust through responsive actions and honest relationships</span>
                 </div>
               </div>
+
               <div className="about-detail-item">
-                <span className="about-detail-icon">🏡</span>
+                <span className="about-detail-icon">
+                  <FaHome />
+                </span>
                 <div className="about-detail-text">
                   <strong>Approach</strong>
                   <span>Community Based Rehabilitation (CBR) addressing needs at individual, household & community levels</span>
