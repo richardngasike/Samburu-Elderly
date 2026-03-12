@@ -622,31 +622,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 8%;
 }
 
-.hero-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 8px 20px;
-  background: rgba(212, 168, 67, 0.2);
-  border: 1px solid rgba(212, 168, 67, 0.5);
-  border-radius: 50px;
-  color: var(--accent-light);
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  margin-bottom: 24px;
-  backdrop-filter: blur(8px);
-  animation: fadeInUp 0.8s ease 0.2s both;
-}
 
-.hero-badge-dot {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: var(--accent);
-  animation: pulse 2s infinite;
-}
 
 .hero-title {
   font-family: var(--font-display);
