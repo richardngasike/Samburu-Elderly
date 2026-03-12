@@ -8,7 +8,7 @@ export default function About() {
           {/* Images */}
           <div className="about-images">
             <div className="about-img-main">
-              <img src="/images/about1.jpg" alt="Elderly woman in Samburu community" />
+              <img src="/images/about1.png" alt="Elderly woman in Samburu community" />
             </div>
             <div className="about-img-secondary">
               <img src="/images/about2.jpg" alt="Community volunteers serving elders" />
