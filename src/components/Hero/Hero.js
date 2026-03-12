@@ -4,21 +4,21 @@ import Link from 'next/link';
 const slides = [
   {
     bg: '/images/cover4.png',
-    badge: 'Serving Samburu Since 2023',
+    
     title: 'Supporting the',
     titleAccent: 'Vulnerable Elderly',
     subtitle: 'Reaching out to nomadic pastoralist elders in Samburu County with food, healthcare, and dignity — because every elder deserves comfort, safety, and independence.',
   },
   {
     bg: '/images/cover1.jpeg',
-    badge: 'Community-Based Care',
+   
     title: 'Building Hope',
     titleAccent: 'One Elder at a Time',
     subtitle: 'Through psychosocial support, medical care, and community engagement, we ensure our elderly live with purpose and belonging in Maralal and beyond.',
   },
   {
     bg: '/images/cover2.png',
-    badge: 'Registered CBO — SBU/C/CBO/00953/2023',
+  
     title: 'Your Donation',
     titleAccent: 'Changes Everything',
     subtitle: 'Join hands with Samburu Elderly Support Initiative. Together, we provide blankets, food, water, and love to the most vulnerable members of our community.',
@@ -66,10 +66,6 @@ export default function Hero() {
       <div className="hero-content">
         <div className="container">
           <div className="hero-content-inner">
-            <div className="hero-badge">
-              <span className="hero-badge-dot"></span>
-              {slides[current].badge}
-            </div>
             <h1 className="hero-title">
               {slides[current].title}
               <span>{slides[current].titleAccent}</span>
@@ -77,7 +73,7 @@ export default function Hero() {
             <p className="hero-subtitle">{slides[current].subtitle}</p>
             <div className="hero-actions">
               <Link href="/donate" className="hero-btn-primary">
-                ❤️ Donate Now
+                 Donate Now
               </Link>
               <Link href="/about" className="hero-btn-secondary">
                 Learn More →
