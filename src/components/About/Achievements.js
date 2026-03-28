@@ -29,13 +29,14 @@ const partners = [
 const boardMembers = [
   { name: 'Virginia Wanjohi', position: 'Chairperson', isLeader: true },
   { name: 'Alice Lotabony', position: 'Secretary', isLeader: true },
-  { name: 'Jama Letipo', position: 'Treasurer', isLeader: true },
+  { name: 'Overseer Daniel Lelesit', position: 'Treasurer', isLeader: true },
   { name: 'James Lesuruapus', position: 'Member', isLeader: false },
   { name: 'Rev. Peter Lenaola', position: 'Member', isLeader: false },
-  { name: 'Teresia Longorot', position: 'Member', isLeader: false },
+  { name: 'Francis Lenyakopiro', position: 'Vice Chairperson', isLeader: false },
   { name: 'Agnes Karanja', position: 'Member', isLeader: false },
-  { name: 'Antonella Lalaikipiani', position: 'Member', isLeader: false },
-   { name: 'Richard Ngasike', position: 'Developer/Technologist', isLeader: false },
+  { name: 'Jama Letipo', position: 'Member', isLeader: false },
+  { name: 'Mohammed Musa', position: 'Member', isLeader: false },
+  { name: 'Richard Ngasike', position: 'Developer/Technologist', isLeader: false },
 ];
 
 export default function Achievements() {

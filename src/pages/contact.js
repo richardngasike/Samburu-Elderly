@@ -87,6 +87,7 @@ export default function ContactPage() {
                   <div className="contact-info-text">
                     <h4>Phone</h4>
                     <p><a href="tel:+254719775166">+254 719 775 166</a></p>
+                    <p><a href="tel:+254701911696">+254 701 911 696</a></p>
                   </div>
                 </div>
                 <div className="contact-info-item">

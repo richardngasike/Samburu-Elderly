@@ -47,7 +47,7 @@ const programs = [
     desc: 'Involving elderly in cultural festivals, birthday celebrations, and community activities to fight isolation and promote dignity.',
     icon: <FaHandshake />,
     iconBg: '#FCE4EC',
-    img: '/images/program4.jpeg',
+    img: '/images/program7.jpeg',
   },
   {
     category: 'Livelihoods',
