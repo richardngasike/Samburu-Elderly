@@ -236,27 +236,27 @@ export default function DonateForm() {
           {tab === 'bank' && (
             <div className="bank-info">
               <div className="bank-info-row">
-                <span className="bank-info-label">Bank Name</span>
-                <span className="bank-info-value">Equity Bank</span>
+                <span className="bank-info-label">CO-OP LIPA NA PAYBILL</span>
+                <span className="bank-info-value">Cooperative Bank</span>
               </div>
               <div className="bank-info-row">
-                <span className="bank-info-label">Account Name</span>
-                <span className="bank-info-value">Samburu Elderly Support Initiative</span>
+                <span className="bank-info-label">Business NUmber</span>
+                <span className="bank-info-value">400 200</span>
               </div>
               <div className="bank-info-row">
                 <span className="bank-info-label">Account Number</span>
-                <span className="bank-info-value">0123456789</span>
+                <span className="bank-info-value">846 300</span>
               </div>
               <div className="bank-info-row">
-                <span className="bank-info-label">Branch</span>
-                <span className="bank-info-value">Maralal Branch</span>
+                <span className="bank-info-label">Business Name</span>
+                <span className="bank-info-value">S.E.SI</span>
               </div>
               <div className="bank-info-row">
                 <span className="bank-info-label">Reference</span>
                 <span className="bank-info-value">DONATION/{new Date().getFullYear()}</span>
               </div>
               <p style={{ marginTop: 12, fontSize: '0.82rem', color: 'var(--text-light)' }}>
-                After making the transfer, email us at samburufortheelderly@gmail.com with your transaction details.
+                If you require assistance, call 0703 027 000 or Whatsapp 0736 690 101
               </p>
             </div>
           )}

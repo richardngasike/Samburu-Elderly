@@ -1,14 +1,14 @@
 import { useState } from 'react';
 
 const images = [
-  { src: '/images/elder.png', alt: 'Elderly woman receiving food donation' },
-  { src: '/images/community.jpg', alt: 'Community gathering in Maralal' },
-  { src: '/images/water.jpg', alt: 'Water distribution activity' },
-  { src: '/images/birthday.jpg', alt: 'Birthday gifts for elderly' },
+  { src: '/images/food.jpeg', alt: 'Elderly woman receiving food donation' },
+  { src: '/images/community.jpeg', alt: 'Community gathering in Maralal' },
+  { src: '/images/water.jpeg', alt: 'Water distribution activity' },
+  { src: '/images/gift.jpeg', alt: 'Birthday gifts for elderly' },
   { src: '/images/blanket.jpeg', alt: 'Blanket distribution event' },
-  { src: '/images/volunteer.avif', alt: 'World Elder Abuse Day event' },
-  { src: '/images/volunteer.jpeg', alt: 'Volunteer team at work' },
-  { src: '/images/gallery1.jpg', alt: 'Elderly person receiving care' },
+  { src: '/images/volunteer.jpeg', alt: 'World Elder Abuse Day event' },
+  { src: '/images/volunteer2.jpeg', alt: 'Volunteer team at work' },
+  { src: '/images/volunteer3.jpeg', alt: 'Elderly person receiving care' },
 ];
 
 export default function Gallery() {

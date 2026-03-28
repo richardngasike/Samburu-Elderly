@@ -9,10 +9,10 @@ export default function About() {
           {/* Images */}
           <div className="about-images">
             <div className="about-img-main">
-              <img src="/images/about1.png" alt="Elderly woman in Samburu community" />
+              <img src="/images/hope.jpeg" alt="Elderly woman in Samburu community" />
             </div>
             <div className="about-img-secondary">
-              <img src="/images/about2.png" alt="Community volunteers serving elders" />
+              <img src="/images/hope2.jpeg" alt="Community volunteers serving elders" />
             </div>
             <div className="about-badge-float">
               <span className="about-badge-float-num">2023</span>

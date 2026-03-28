@@ -23,7 +23,7 @@ const programs = [
     desc: 'Ensuring medication adherence, affordability, and access for elderly. Providing psychosocial health support and mental wellbeing interventions.',
     icon: <FaHospital />,
     iconBg: '#E8F5E9',
-    img: '/images/program1.jpg',
+    img: '/images/program1.jpeg',
   },
  {
   category: 'Food Security',
@@ -31,7 +31,7 @@ const programs = [
   desc: 'Regular distribution of foodstuffs and relief food to three target communities in partnership with DCC office and county government.',
   icon: <GiCorn />,
   iconBg: '#FFF3E0',
-  img: '/images/program2.webp',
+  img: '/images/program2.jpeg',
 },
   {
     category: 'Water & Sanitation',
@@ -39,7 +39,7 @@ const programs = [
     desc: 'Distributing water boosters and working with Samburu County Government to ensure safe water availability for the elderly in all target areas.',
     icon: <FaTint />,
     iconBg: '#E3F2FD',
-    img: '/images/program3.jpg',
+    img: '/images/program3.jpeg',
   },
   {
     category: 'Social Care',
@@ -47,7 +47,7 @@ const programs = [
     desc: 'Involving elderly in cultural festivals, birthday celebrations, and community activities to fight isolation and promote dignity.',
     icon: <FaHandshake />,
     iconBg: '#FCE4EC',
-    img: '/images/program6.jpg',
+    img: '/images/program4.jpeg',
   },
   {
     category: 'Livelihoods',
@@ -55,7 +55,7 @@ const programs = [
     desc: 'Initiating sustainable IGA projects for elderly persons and their families to ensure long-term economic resilience and independence.',
     icon: <FaSeedling />,
     iconBg: '#F3E5F5',
-    img: '/images/program4.jpg',
+    img: '/images/program5.jpeg',
   },
   {
     category: 'Spiritual Care',
@@ -63,7 +63,7 @@ const programs = [
     desc: 'Addressing spiritual poverty through ordained pastors and laypeople providing comfort, evangelization, and faith-based counselling.',
     icon: <FaPrayingHands />,
     iconBg: '#FFF8E1',
-    img: '/images/program5.jpg',
+    img: '/images/program6.jpeg',
   },
 ];
 

@@ -2439,7 +2439,7 @@ h1, h2, h3, h4, h5, h6 {
       rgba(0,0,0,0.65),
       rgba(0,0,0,0.65)
     ),
-    url("/images/ctabg.png") center/cover no-repeat;
+    url("/images/donatebg.jpeg") center/cover no-repeat;
 }
 
 .cta-bg-pattern {
@@ -2543,7 +2543,7 @@ h1, h2, h3, h4, h5, h6 {
       rgba(0,0,0,0.65),
       rgba(0,0,0,0.65)
     ),
-    url("/images/bannerbg.png") center/cover no-repeat;
+    url("/images/maincover.jpeg") center/cover no-repeat;
 
   position: relative;
   overflow: hidden;

@@ -3,21 +3,21 @@ import Link from 'next/link';
 
 const slides = [
   {
-    bg: '/images/cover4.png',
+    bg: '/images/hero3.jpeg',
     
     title: 'Supporting the',
     titleAccent: 'Vulnerable Elderly',
     subtitle: 'Reaching out to nomadic pastoralist elders in Samburu County with food, healthcare, and dignity — because every elder deserves comfort, safety, and independence.',
   },
   {
-    bg: '/images/cover1.jpeg',
+    bg: '/images/hero2.jpeg',
    
     title: 'Building Hope',
     titleAccent: 'One Elder at a Time',
     subtitle: 'Through psychosocial support, medical care, and community engagement, we ensure our elderly live with purpose and belonging in Maralal and beyond.',
   },
   {
-    bg: '/images/cover.png',
+    bg: '/images/hero1.jpeg',
   
     title: 'Your Donation',
     titleAccent: 'Changes Everything',
