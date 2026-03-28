@@ -218,7 +218,7 @@ export default function DonateForm() {
                 <span className="bank-info-value">DONATION/{new Date().getFullYear()}</span>
               </div>
               <p style={{ marginTop: 12, fontSize: '0.82rem', color: 'var(--text-light)' }}>
-                If you require assistance, call 0703 027 000 or Whatsapp 0736 690 101
+                If you require assistance, call 0701911696 or Whatsapp 0719775166 
               </p>
             </div>
           )}
@@ -269,6 +269,7 @@ export function DonateImpact() {
           <div className="donate-contact-item">
             <span>📞</span>
             <span>+254 719 775 166</span>
+            <span>+254 701 911 696</span>
           </div>
           <div className="donate-contact-item">
             <span>✉️</span>
