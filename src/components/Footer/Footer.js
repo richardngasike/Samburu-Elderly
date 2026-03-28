@@ -11,7 +11,11 @@ export default function Footer() {
             {/* Brand */}
             <div className="footer-brand">
               <div className="footer-logo">
-                <div className="footer-logo-icon">🤲</div>
+                    <img
+                src="/images/logo.png"
+                alt="Samburu Elderly Support Initiative Logo"
+                className="footer-logo-img" 
+              />
                 <div>
                   <div className="footer-logo-name">Samburu Elderly<br />Support Initiative</div>
                   <div className="footer-logo-sub">Maralal, Kenya</div>

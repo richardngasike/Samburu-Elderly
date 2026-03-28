@@ -35,6 +35,7 @@ const boardMembers = [
   { name: 'Teresia Longorot', position: 'Member', isLeader: false },
   { name: 'Agnes Karanja', position: 'Member', isLeader: false },
   { name: 'Antonella Lalaikipiani', position: 'Member', isLeader: false },
+   { name: 'Richard Ngasike', position: 'Developer/Technologist', isLeader: false },
 ];
 
 export default function Achievements() {

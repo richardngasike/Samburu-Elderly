@@ -38,9 +38,10 @@
   align-items: center;
   gap: 12px;
   margin-bottom: 20px;
+ 
 }
 
-.footer-logo-icon {
+.footer-logo-img {
   font-size: 2rem;
   width: 52px;
   height: 52px;
@@ -50,6 +51,8 @@
   align-items: center;
   justify-content: center;
 }
+
+
 
 .footer-logo-name {
   font-family: var(--font-display);
