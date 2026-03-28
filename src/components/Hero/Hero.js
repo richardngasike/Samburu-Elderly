@@ -26,7 +26,7 @@ const slides = [
 ];
 
 const stats = [
-  { number: '3+', label: 'Communities Served' },
+  { number: '5+', label: 'Communities Served' },
   { number: '20+', label: 'Elders Supported' },
   { number: '5+', label: 'Open Forums Held' },
   { number: '6', label: 'Water Boosters Provided' },
