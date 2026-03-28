@@ -131,13 +131,7 @@ export default function DonateForm() {
 
           {/* Payment Methods */}
           <div className="payment-methods-tabs">
-            <button
-              type="button"
-              className={`payment-tab ${tab === 'mpesa' ? 'active' : ''}`}
-              onClick={() => setTab('mpesa')}
-            >
-              📱 M-PESA
-            </button>
+           
             <button
               type="button"
               className={`payment-tab ${tab === 'card' ? 'active' : ''}`}
@@ -150,43 +144,11 @@ export default function DonateForm() {
               className={`payment-tab ${tab === 'bank' ? 'active' : ''}`}
               onClick={() => setTab('bank')}
             >
-              🏦 Bank Transfer
+              🏦 Mpesa Paybill
             </button>
           </div>
 
-          {/* M-PESA */}
-          {tab === 'mpesa' && (
-            <div>
-              <div className="mpesa-logo">
-                <span>📱</span> M-PESA
-              </div>
-              <div className="form-group">
-                <label className="form-label">M-PESA Phone Number</label>
-                <input
-                  className="form-input"
-                  type="tel"
-                  placeholder="e.g. 0712345678"
-                  value={phone}
-                  onChange={(e) => setPhone(e.target.value)}
-                  required={tab === 'mpesa'}
-                />
-              </div>
-              <div className="mpesa-steps">
-                <div className="mpesa-step">
-                  <span className="mpesa-step-num">1</span>
-                  <span>Enter your Safaricom M-PESA number above</span>
-                </div>
-                <div className="mpesa-step">
-                  <span className="mpesa-step-num">2</span>
-                  <span>Click "Donate" — an STK push will be sent to your phone</span>
-                </div>
-                <div className="mpesa-step">
-                  <span className="mpesa-step-num">3</span>
-                  <span>Enter your M-PESA PIN to complete the payment</span>
-                </div>
-              </div>
-            </div>
-          )}
+      
 
           {/* Card */}
           {tab === 'card' && (
