@@ -61,7 +61,7 @@ export default function About() {
                 </span>
                 <div className="about-detail-text">
                   <strong>Registration</strong>
-                  <span>CBO Certificate No. SBU/C/CBO/00953/2023 — Ministry of Culture, Gender & Sports</span>
+                  <span>CBO Certificate No. SBU/C/CBO/00953/2023 — ministry of labour, directorate of social development.</span>
                 </div>
               </div>
 
